@@ -1,5 +1,10 @@
-import AdventOfCode (readInputFile, splitOn, splitOnOne)
+import AdventOfCode (readInputFile)
+import AdventOfCode.Split (splitOn, splitOnOne)
 
+import Data.IntMap (IntMap)
+import qualified Data.IntMap as IntMap
+import Data.IntSet (IntSet)
+import qualified Data.IntSet as IntSet
 import Data.Map (Map)
 import qualified Data.Map as Map
 import Data.Sequence (Seq)
@@ -9,11 +14,14 @@ import qualified Data.Set as Set
 
 import Control.Arrow ((***), first, second)
 import Control.Monad (forM_)
+import Data.Either (either, fromLeft, fromRight, lefts, partitionEithers, rights)
 import Data.Function (on)
+import Data.List (dropWhileEnd, elemIndex, find, findIndex, findIndices, foldl', group, groupBy, inits, intercalate, intersperse, maximumBy, minimumBy, partition, permutations, sort, sortOn, sortBy, subsequences, tails, transpose)
 import Data.Maybe (catMaybes, fromJust, fromMaybe, mapMaybe, maybe)
-import Data.List (dropWhileEnd, elemIndex, find, findIndex, foldl', group, groupBy, inits, intercalate, intersperse, maximumBy, minimumBy, partition, permutations, sort, sortOn, sortBy, subsequences, tails, transpose)
+import Data.Ord (comparing)
 import Debug.Trace
 import Text.Printf (printf)
+-- reminder: `fromJust (find p (iterate f x))` can instead be `until p f x`
 
 count :: (a -> Bool) -> [a] -> Int
 count f = length . filter f
