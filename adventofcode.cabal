@@ -18,3 +18,9 @@ library aocsplit
   exposed-modules: AdventOfCode.Split
   ghc-options:     -Wall
   build-depends:   base
+
+executable 01_report_repair
+  build-depends:  base, adventofcode2020, containers
+  hs-source-dirs: bin
+  main-is:        01_report_repair.hs
+  ghc-options:    -Wall
