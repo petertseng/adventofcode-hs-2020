@@ -30,3 +30,9 @@ executable 02_password_philosophy
   hs-source-dirs: bin
   main-is:        02_password_philosophy.hs
   ghc-options:    -Wall
+
+executable 03_toboggan_trajectory
+  build-depends:  base, adventofcode2020, containers
+  hs-source-dirs: bin
+  main-is:        03_toboggan_trajectory.hs
+  ghc-options:    -Wall
