@@ -49,3 +49,8 @@ executable 02_password_philosophy
   import: bin, flags
   build-depends: base, adventofcode2020, aocsplit
   main-is:       02_password_philosophy.hs
+
+executable 03_toboggan_trajectory
+  import: bin, flags
+  build-depends: base, adventofcode2020, containers
+  main-is:       03_toboggan_trajectory.hs
