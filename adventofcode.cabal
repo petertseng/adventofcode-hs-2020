@@ -36,3 +36,9 @@ executable 03_toboggan_trajectory
   hs-source-dirs: bin
   main-is:        03_toboggan_trajectory.hs
   ghc-options:    -Wall
+
+executable 04_passport_processing
+  build-depends:  base, adventofcode2020, aocsplit, containers
+  hs-source-dirs: bin
+  main-is:        04_passport_processing.hs
+  ghc-options:    -Wall
