@@ -59,3 +59,8 @@ executable 04_passport_processing
   import: bin, flags
   build-depends: base, adventofcode2020, aocsplit, containers
   main-is:       04_passport_processing.hs
+
+executable 05_binary_boarding
+  import: bin, flags
+  build-depends: base, adventofcode2020
+  main-is:       05_binary_boarding.hs
