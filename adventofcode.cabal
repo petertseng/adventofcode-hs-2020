@@ -42,3 +42,9 @@ executable 04_passport_processing
   hs-source-dirs: bin
   main-is:        04_passport_processing.hs
   ghc-options:    -Wall
+
+executable 05_binary_boarding
+  build-depends:  base, adventofcode2020
+  hs-source-dirs: bin
+  main-is:        05_binary_boarding.hs
+  ghc-options:    -Wall
