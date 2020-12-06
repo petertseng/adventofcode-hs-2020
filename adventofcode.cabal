@@ -48,3 +48,9 @@ executable 05_binary_boarding
   hs-source-dirs: bin
   main-is:        05_binary_boarding.hs
   ghc-options:    -Wall
+
+executable 06_custom_customs
+  build-depends:  base, adventofcode2020, aocsplit
+  hs-source-dirs: bin
+  main-is:        06_custom_customs.hs
+  ghc-options:    -Wall
