@@ -34,6 +34,12 @@ library
   exposed-modules: AdventOfCode
   build-depends:   base
 
+library aocsearch
+  import: flags
+  hs-source-dirs:  lib
+  exposed-modules: AdventOfCode.Search
+  build-depends:   base, containers
+
 library aocsplit
   import: flags
   hs-source-dirs:  lib
