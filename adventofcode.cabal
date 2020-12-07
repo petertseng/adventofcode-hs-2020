@@ -75,3 +75,8 @@ executable 06_custom_customs
   import: bin, flags
   build-depends: base, adventofcode2020, aocsplit
   main-is:       06_custom_customs.hs
+
+executable 07_handy_haversacks
+  import: bin, flags
+  build-depends: base, adventofcode2020, aocsearch, aocsplit, containers
+  main-is:       07_handy_haversacks.hs
