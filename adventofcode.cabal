@@ -60,3 +60,9 @@ executable 06_custom_customs
   hs-source-dirs: bin
   main-is:        06_custom_customs.hs
   ghc-options:    -Wall
+
+executable 07_handy_haversacks
+  build-depends:  base, adventofcode2020, aocsearch, aocsplit, containers
+  hs-source-dirs: bin
+  main-is:        07_handy_haversacks.hs
+  ghc-options:    -Wall
