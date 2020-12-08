@@ -66,3 +66,9 @@ executable 07_handy_haversacks
   hs-source-dirs: bin
   main-is:        07_handy_haversacks.hs
   ghc-options:    -Wall
+
+executable 08_handheld_halting
+  build-depends:  base, adventofcode2020, aocsearch, array, containers
+  hs-source-dirs: bin
+  main-is:        08_handheld_halting.hs
+  ghc-options:    -Wall
