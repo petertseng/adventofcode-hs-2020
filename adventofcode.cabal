@@ -80,3 +80,8 @@ executable 07_handy_haversacks
   import: bin, flags
   build-depends: base, adventofcode2020, aocsearch, aocsplit, containers
   main-is:       07_handy_haversacks.hs
+
+executable 08_handheld_halting
+  import: bin, flags
+  build-depends: base, adventofcode2020, aocsearch, array, containers
+  main-is:       08_handheld_halting.hs
