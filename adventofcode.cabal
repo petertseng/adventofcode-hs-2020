@@ -72,3 +72,9 @@ executable 08_handheld_halting
   hs-source-dirs: bin
   main-is:        08_handheld_halting.hs
   ghc-options:    -Wall
+
+executable 09_encoding_error
+  build-depends:  base, adventofcode2020, array, containers
+  hs-source-dirs: bin
+  main-is:        09_encoding_error.hs
+  ghc-options:    -Wall
