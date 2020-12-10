@@ -90,3 +90,8 @@ executable 09_encoding_error
   import: bin, flags
   build-depends: base, adventofcode2020, array, containers
   main-is:       09_encoding_error.hs
+
+executable 10_adapter_array
+  import: bin, flags
+  build-depends: base, adventofcode2020, containers
+  main-is:       10_adapter_array.hs
