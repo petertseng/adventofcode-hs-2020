@@ -78,3 +78,9 @@ executable 09_encoding_error
   hs-source-dirs: bin
   main-is:        09_encoding_error.hs
   ghc-options:    -Wall
+
+executable 10_adapter_array
+  build-depends:  base, adventofcode2020, containers
+  hs-source-dirs: bin
+  main-is:        10_adapter_array.hs
+  ghc-options:    -Wall
