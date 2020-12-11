@@ -84,3 +84,9 @@ executable 10_adapter_array
   hs-source-dirs: bin
   main-is:        10_adapter_array.hs
   ghc-options:    -Wall
+
+executable 11_seating_system
+  build-depends:  base, adventofcode2020, array, containers
+  hs-source-dirs: bin
+  main-is:        11_seating_system.hs
+  ghc-options:    -Wall
