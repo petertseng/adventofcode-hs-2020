@@ -95,3 +95,8 @@ executable 10_adapter_array
   import: bin, flags
   build-depends: base, adventofcode2020, containers
   main-is:       10_adapter_array.hs
+
+executable 11_seating_system
+  import: bin, flags
+  build-depends: base, adventofcode2020, array, containers
+  main-is:       11_seating_system.hs
