@@ -90,3 +90,9 @@ executable 11_seating_system
   hs-source-dirs: bin
   main-is:        11_seating_system.hs
   ghc-options:    -Wall
+
+executable 12_rain_risk
+  build-depends:  base, adventofcode2020
+  hs-source-dirs: bin
+  main-is:        12_rain_risk.hs
+  ghc-options:    -Wall
