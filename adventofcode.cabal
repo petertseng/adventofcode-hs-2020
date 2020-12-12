@@ -100,3 +100,8 @@ executable 11_seating_system
   import: bin, flags
   build-depends: base, adventofcode2020, array, containers
   main-is:       11_seating_system.hs
+
+executable 12_rain_risk
+  import: bin, flags
+  build-depends: base, adventofcode2020
+  main-is:       12_rain_risk.hs
