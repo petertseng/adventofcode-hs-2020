@@ -105,3 +105,8 @@ executable 12_rain_risk
   import: bin, flags
   build-depends: base, adventofcode2020
   main-is:       12_rain_risk.hs
+
+executable 13_shuttle_search
+  import: bin, flags
+  build-depends: base, adventofcode2020, aocsplit
+  main-is:       13_shuttle_search.hs
