@@ -96,3 +96,9 @@ executable 12_rain_risk
   hs-source-dirs: bin
   main-is:        12_rain_risk.hs
   ghc-options:    -Wall
+
+executable 13_shuttle_search
+  build-depends:  base, adventofcode2020, aocsplit
+  hs-source-dirs: bin
+  main-is:        13_shuttle_search.hs
+  ghc-options:    -Wall
