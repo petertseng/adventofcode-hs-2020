@@ -110,3 +110,8 @@ executable 13_shuttle_search
   import: bin, flags
   build-depends: base, adventofcode2020, aocsplit
   main-is:       13_shuttle_search.hs
+
+executable 14_docking_data
+  import: bin, flags
+  build-depends: base, adventofcode2020, aocsplit, containers
+  main-is:       14_docking_data.hs
