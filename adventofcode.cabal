@@ -102,3 +102,9 @@ executable 13_shuttle_search
   hs-source-dirs: bin
   main-is:        13_shuttle_search.hs
   ghc-options:    -Wall
+
+executable 14_docking_data
+  build-depends:  base, adventofcode2020, aocsplit, containers
+  hs-source-dirs: bin
+  main-is:        14_docking_data.hs
+  ghc-options:    -Wall
