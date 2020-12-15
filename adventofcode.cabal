@@ -115,3 +115,8 @@ executable 14_docking_data
   import: bin, flags
   build-depends: base, adventofcode2020, aocsplit, containers
   main-is:       14_docking_data.hs
+
+executable 15_rambunctious_recitation
+  import: bin, flags
+  build-depends: base, adventofcode2020, aocsplit, array
+  main-is:       15_rambunctious_recitation.hs
