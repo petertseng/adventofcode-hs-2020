@@ -108,3 +108,9 @@ executable 14_docking_data
   hs-source-dirs: bin
   main-is:        14_docking_data.hs
   ghc-options:    -Wall
+
+executable 15_rambunctious_recitation
+  build-depends:  base, adventofcode2020, aocsplit, array
+  hs-source-dirs: bin
+  main-is:        15_rambunctious_recitation.hs
+  ghc-options:    -Wall
