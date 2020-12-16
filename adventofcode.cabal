@@ -120,3 +120,9 @@ executable 15_rambunctious_recitation
   hs-source-dirs: bin
   main-is:        15_rambunctious_recitation.hs
   ghc-options:    -Wall
+
+executable 16_ticket_translation
+  build-depends:  base, adventofcode2020, aocmatch, aocsplit, containers
+  hs-source-dirs: bin
+  main-is:        16_ticket_translation.hs
+  ghc-options:    -Wall
