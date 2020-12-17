@@ -126,3 +126,9 @@ executable 16_ticket_translation
   hs-source-dirs: bin
   main-is:        16_ticket_translation.hs
   ghc-options:    -Wall
+
+executable 17_conway_cubes
+  build-depends:  base, adventofcode2020, containers
+  hs-source-dirs: bin
+  main-is:        17_conway_cubes.hs
+  ghc-options:    -Wall
