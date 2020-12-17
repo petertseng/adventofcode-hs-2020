@@ -131,3 +131,8 @@ executable 16_ticket_translation
   import: bin, flags
   build-depends: base, adventofcode2020, aocmatch, aocsplit, containers
   main-is:       16_ticket_translation.hs
+
+executable 17_conway_cubes
+  import: bin, flags
+  build-depends: base, adventofcode2020, containers
+  main-is:       17_conway_cubes.hs
