@@ -132,3 +132,9 @@ executable 17_conway_cubes
   hs-source-dirs: bin
   main-is:        17_conway_cubes.hs
   ghc-options:    -Wall
+
+executable 18_operation_order
+  build-depends:  base, adventofcode2020
+  hs-source-dirs: bin
+  main-is:        18_operation_order.hs
+  ghc-options:    -Wall
