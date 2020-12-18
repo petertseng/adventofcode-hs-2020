@@ -136,3 +136,8 @@ executable 17_conway_cubes
   import: bin, flags
   build-depends: base, adventofcode2020, containers
   main-is:       17_conway_cubes.hs
+
+executable 18_operation_order
+  import: bin, flags
+  build-depends: base, adventofcode2020
+  main-is:       18_operation_order.hs
