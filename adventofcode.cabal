@@ -138,3 +138,9 @@ executable 18_operation_order
   hs-source-dirs: bin
   main-is:        18_operation_order.hs
   ghc-options:    -Wall
+
+executable 19_monster_messages
+  build-depends:  base, adventofcode2020, aocsplit, array
+  hs-source-dirs: bin
+  main-is:        19_monster_messages.hs
+  ghc-options:    -Wall
