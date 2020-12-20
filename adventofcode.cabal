@@ -146,3 +146,8 @@ executable 19_monster_messages
   import: bin, flags
   build-depends: base, adventofcode2020, aocsplit, array
   main-is:       19_monster_messages.hs
+
+executable 20_jurassic_jigsaw
+  import: bin, flags
+  build-depends: base, adventofcode2020, aocsplit, containers
+  main-is:       20_jurassic_jigsaw.hs
