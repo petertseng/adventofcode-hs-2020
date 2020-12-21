@@ -34,6 +34,12 @@ library
   exposed-modules: AdventOfCode
   build-depends:   base
 
+library aocmatch
+  import: flags
+  hs-source-dirs:  lib
+  exposed-modules: AdventOfCode.BipartiteMatching
+  build-depends:  base, containers
+
 library aocsearch
   import: flags
   hs-source-dirs:  lib
