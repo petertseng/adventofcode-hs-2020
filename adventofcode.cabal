@@ -150,3 +150,9 @@ executable 20_jurassic_jigsaw
   hs-source-dirs: bin
   main-is:        20_jurassic_jigsaw.hs
   ghc-options:    -Wall
+
+executable 21_allergen_assessment
+  build-depends:  base, adventofcode2020, aocmatch, aocsplit, containers
+  hs-source-dirs: bin
+  main-is:        21_allergen_assessment.hs
+  ghc-options:    -Wall
