@@ -151,3 +151,8 @@ executable 20_jurassic_jigsaw
   import: bin, flags
   build-depends: base, adventofcode2020, aocsplit, containers
   main-is:       20_jurassic_jigsaw.hs
+
+executable 21_allergen_assessment
+  import: bin, flags
+  build-depends: base, adventofcode2020, aocmatch, aocsplit, containers
+  main-is:       21_allergen_assessment.hs
