@@ -13,6 +13,12 @@ library
   ghc-options:     -Wall
   build-depends:   base
 
+library aocmatch
+  hs-source-dirs:  lib
+  exposed-modules: AdventOfCode.BipartiteMatching
+  ghc-options:    -Wall
+  build-depends:  base, containers
+
 library aocsearch
   hs-source-dirs:  lib
   exposed-modules: AdventOfCode.Search
