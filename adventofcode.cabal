@@ -156,3 +156,8 @@ executable 21_allergen_assessment
   import: bin, flags
   build-depends: base, adventofcode2020, aocmatch, aocsplit, containers
   main-is:       21_allergen_assessment.hs
+
+executable 22_crab_combat
+  import: bin, flags
+  build-depends: base, adventofcode2020, aocsplit, array, containers
+  main-is:       22_crab_combat.hs
