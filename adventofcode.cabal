@@ -156,3 +156,9 @@ executable 21_allergen_assessment
   hs-source-dirs: bin
   main-is:        21_allergen_assessment.hs
   ghc-options:    -Wall
+
+executable 22_crab_combat
+  build-depends:  base, adventofcode2020, aocsplit, array, containers
+  hs-source-dirs: bin
+  main-is:        22_crab_combat.hs
+  ghc-options:    -Wall
