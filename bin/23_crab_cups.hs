@@ -7,14 +7,15 @@ import Control.Monad.ST (ST, runST)
 import Data.Array.MArray (newListArray, readArray, writeArray)
 import Data.Array.ST (STUArray)
 import Data.Char (digitToInt, isDigit)
+import Data.Word (Word32, Word64)
 
-game :: [Int] -> Int -> Int -> Int -> [Int]
+game :: [Word32] -> Word32 -> Int -> Int -> [Word32]
 game cups ncups nrounds nRightOf1 = tail $ runST $ do
-  right <- newListArray (1, ncups) [2 .. ncups + 1] :: ST s (STUArray s Int Int)
+  right <- newListArray (1, ncups) [2 .. ncups + 1] :: ST s (STUArray s Word32 Word32)
   zipWithM_ (writeArray right) cups (tail cups)
-  if ncups > length cups
+  if ncups > fromIntegral (length cups)
     then do
-      writeArray right (last cups) (length cups + 1)
+      writeArray right (last cups) (fromIntegral (length cups) + 1)
       writeArray right ncups (head cups)
     else writeArray right (last cups) (head cups)
 
@@ -49,8 +50,10 @@ until1 p f a = until p f (f a)
 main :: IO ()
 main = do
   s <- readInputFile
-  let cups = map digitToInt (filter isDigit s)
+  let cups = map (fromIntegral . digitToInt) (filter isDigit s)
   putStrLn (concatMap show (game cups 9 100 8))
 
   let xs = game cups 1_000_000 10_000_000 2
-  print (product xs)
+      fromIntegral64 :: Integral a => a -> Word64
+      fromIntegral64 = fromIntegral
+  print (product (map fromIntegral64 xs))
