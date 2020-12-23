@@ -161,3 +161,8 @@ executable 22_crab_combat
   import: bin, flags
   build-depends: base, adventofcode2020, aocsplit, array, containers
   main-is:       22_crab_combat.hs
+
+executable 23_crab_cups
+  import: bin, flags
+  build-depends: base, adventofcode2020, array
+  main-is:       23_crab_cups.hs
