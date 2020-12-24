@@ -168,3 +168,9 @@ executable 23_crab_cups
   hs-source-dirs: bin
   main-is:        23_crab_cups.hs
   ghc-options:    -Wall
+
+executable 24_lobby_layout
+  build-depends:  base, adventofcode2020, containers
+  hs-source-dirs: bin
+  main-is:        24_lobby_layout.hs
+  ghc-options:    -Wall
