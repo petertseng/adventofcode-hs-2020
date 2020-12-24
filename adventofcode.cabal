@@ -166,3 +166,8 @@ executable 23_crab_cups
   import: bin, flags
   build-depends: base, adventofcode2020, array
   main-is:       23_crab_cups.hs
+
+executable 24_lobby_layout
+  import: bin, flags
+  build-depends: base, adventofcode2020, containers
+  main-is:       24_lobby_layout.hs
