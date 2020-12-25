@@ -16,7 +16,7 @@ In general, all solutions can be invoked in both of the following ways:
 
 Some may additionally support other ways:
 
-None yet.
+Day 25 (Combo Breaker): Can also pass the public keys on ARGV
 
 ## Closing thoughts
 

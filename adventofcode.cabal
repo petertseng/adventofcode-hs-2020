@@ -171,3 +171,8 @@ executable 24_lobby_layout
   import: bin, flags
   build-depends: base, adventofcode2020, containers
   main-is:       24_lobby_layout.hs
+
+executable 25_combo_breaker
+  import: bin, flags
+  build-depends: base, containers
+  main-is:       25_combo_breaker.hs
