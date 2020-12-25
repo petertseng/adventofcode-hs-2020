@@ -174,3 +174,9 @@ executable 24_lobby_layout
   hs-source-dirs: bin
   main-is:        24_lobby_layout.hs
   ghc-options:    -Wall
+
+executable 25_combo_breaker
+  build-depends:  base, containers
+  hs-source-dirs: bin
+  main-is:        25_combo_breaker.hs
+  ghc-options:    -Wall
