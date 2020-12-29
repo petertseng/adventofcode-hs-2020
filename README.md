@@ -20,4 +20,16 @@ Day 25 (Combo Breaker): Can also pass the public keys on ARGV
 
 ## Closing thoughts
 
-None yet.
+You learn some cool tricks by being around other Haskellers.
+
+Pairs:
+
+```haskell
+[(x, y) | x:ys <- tails xs, y <- ys]
+```
+
+Repeated permutations:
+
+```haskell
+replicateM 3 [0, -1, 1]
+```
